@@ -6,7 +6,10 @@ const navbar =() => {
     return (
         <div>
    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a className="navbar-brand" href="#">Navbar</a>
+    <div className= "container-fluid"> 
+      <Link to="/"> 
+        <img src= "imagenes/logo.jpg.jpg" width= "120"/>
+      </Link>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>
@@ -18,7 +21,7 @@ const navbar =() => {
       <Link className="nav-item nav-link" to="/Almuerzos">Almuerzos</Link>
       <Link className="nav-item nav-link" to="/Comidas">Comidas</Link>
       <Link className="nav-item nav-link" to="/Bebidas">Bebidas</Link>
-      
+      </div>
     </div>
   </div>
 </nav> 
