@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  overflow-x: hidden;
+  
 }
 
 .App-logo {
@@ -35,4 +37,27 @@
   to {
     transform: rotate(360deg);
   }
+}
+.navbar-navbar-expand-lg-navbar-dark-bg-dark{
+  text-decoration-color: blue;
+}
+
+.btn{
+  color: white;
+  text-decoration-line: block;
+  text-decoration: none;
+}
+
+.btn:hover{
+  color: wheat; /* Color al pasar el cursor (azul) */
+  cursor: pointer;
+  outline: none;
+}
+
+.btn:focus{
+  outline: none;
+}
+
+.btn:active{
+  outline: none;
 }

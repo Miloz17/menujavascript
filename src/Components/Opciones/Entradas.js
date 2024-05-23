@@ -2,10 +2,10 @@ import React from "react";
 
 const entrada = () => {
 return (
-        <div>
-            <h1>todo el menu</h1>
+    <div>
+        <h1>todo el menu</h1>
 
-        </div>
+    </div>
 
 )
 

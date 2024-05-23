@@ -1,35 +1,28 @@
 import React from "react"
-import {Link} from "react-router-dom"
-
-const navbar =() => {
-
-    return (
-        <div>
-   <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div className= "container-fluid"> 
-      <Link to="/"> 
-        <img src= "imagenes/logo.jpg.jpg" width= "120"/>
-      </Link>
-  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span className="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div className="navbar-nav mx-auto">
-      <Link className="nav-item nav-link active" to="/">Todos <span class="sr-only">(current)</span></Link>
-      <Link className="nav-item nav-link" to= "/Entradas">Entradas</Link>
-      <Link className="nav-item nav-link" to="/Desayunos">Desayunos</Link>
-      <Link className="nav-item nav-link" to="/Almuerzos">Almuerzos</Link>
-      <Link className="nav-item nav-link" to="/Comidas">Comidas</Link>
-      <Link className="nav-item nav-link" to="/Bebidas">Bebidas</Link>
-      </div>
-    </div>
-  </div>
-</nav> 
 
 
-
+const Navbar =({desplazar}) => {
+  return (
+  <div>
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div className= "container-fluid"> 
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div className="navbar-nav mx-auto">
+            <button className="btn" onClick={desplazar}>Todos <span class="sr-only">(current)</span></button>
+            <button className="btn" to= "/Entradas">Entradas </button>
+            <button className="btn" to="/Desayunos">Desayunos</button>
+            <button className="btn" to="/Almuerzos">Almuerzos</button>
+            <button className="btn" to="/Comidas">Comidas</button>
+            <button className="btn" to="/Bebidas">Bebidas</button>
+          </div>
         </div>
-    )
+      </div>
+    </nav> 
+  </div>
+  )
 }
 
-export default navbar
+export default Navbar
