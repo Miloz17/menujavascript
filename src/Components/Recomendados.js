@@ -11,7 +11,8 @@ export const Recomendados = () => {
         <h2 className='text'>
           Pollo asado
           <h6>Pollo asado con papas a la francesa y ensalada, compralo hoy por tan solo: </h6>
-          <h4>$25.000</h4> </h2>
+          <h4>$25.000</h4> 
+        </h2>
       </div>
 
       <div className='image-pair'>
@@ -19,7 +20,8 @@ export const Recomendados = () => {
         <h2 className='text'>
           Papas a la francesa
           <h6>Porcion grande de papas a la francesa, compralo hoy por tan solo: </h6>
-          <h4>$10.000</h4> </h2>
+          <h4>$10.000</h4> 
+        </h2>
       </div>
 
       <div className='image-pair'>

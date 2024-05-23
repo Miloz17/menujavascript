@@ -1,12 +1,25 @@
 import React from "react";
-
+import imagenes from "../../assets/imagenes";
 const Desayunos = () => {
 return (
-        <div>
-            <h1> holas </h1>
+    <div className="container">
+    <h2>Desayunos</h2>
+      <div className='image-pair'>
+        <img className='img' src={imagenes.entrada4} alt='Entrada 4' />
+        <h2 className='text'>
+          Pollo asado
+          <h6>Pollo asado con papas a la francesa y ensalada, compralo hoy por tan solo: </h6>
+          <h4>$25.000</h4> </h2>
+      </div>
 
-        </div>
-
+      <div className='image-pair'>
+        <img className='img' src={imagenes.entrada1} alt='Entrada 1' />
+        <h2 className='text'>
+          Papas a la francesa
+          <h6>Porcion grande de papas a la francesa, compralo hoy por tan solo: </h6>
+          <h4>$10.000</h4> </h2>
+      </div>
+    </div>
 )
 
 }
