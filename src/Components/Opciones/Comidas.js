@@ -1,9 +1,9 @@
-import React from 'react'
+import React, { forwardRef } from 'react'
 import imagenes from '../../assets/imagenes'
 
-export const Comidas = () => {
+const Comidas = forwardRef((props,ref) => {
   return (
-    <div className='container'>
+    <div className='container' ref={ref}>
     <h2>Comidas</h2>
       <div className='image-pair'>
             <img className='img' src={imagenes.entrada1} alt='Entrada' />
@@ -87,4 +87,5 @@ export const Comidas = () => {
       </div>
     </div>
   )
-}
+})
+export default Comidas

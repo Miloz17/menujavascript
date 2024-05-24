@@ -1,8 +1,8 @@
-import React from "react";
+import React, { forwardRef } from "react";
 import imagenes from "../../assets/imagenes";
-const Desayunos = () => {
+const Desayunos = forwardRef ((props, ref) => {
 return (
-    <div className="container">
+    <div className="container" ref={ref}>
     <h2>Desayunos</h2>
       <div className='image-pair'>
         <img className='img' src={imagenes.entrada4} alt='Entrada 4' />
@@ -22,6 +22,6 @@ return (
     </div>
 )
 
-}
+});
 
 export default Desayunos
