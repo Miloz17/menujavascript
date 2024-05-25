@@ -7,7 +7,7 @@ const Entradas = forwardRef((props, ref) => {
     modal1: false,
     modal2: false,
     modal3: false,
-    modal4: false
+    modal4: false,
   });
 
   const openModal = (modalId) => {

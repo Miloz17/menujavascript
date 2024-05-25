@@ -58,7 +58,37 @@ const imagenes = {
       title: "Pasteles de Pollo",
       description: "Dos pasteles de pollo",
       price: "$10.000"
-    }
+    },
+
+    hamburguesaContent: {
+        image: hamburguesa,
+        alt: "hamburguesa",
+        title: "Hamburguesa",
+        description: "Hamburguesa, con tocineta",
+        price: "$25.000"
+    },
+    hamburguesa2Content: {
+        image: hamburguesa2,
+        alt: "Papas a la Francesa",
+        title: "Papas a la Francesa",
+        description: "Porcion grande de papas a la francesa",
+        price: "$10.000"
+      },
+      hamburguesa3Content: {
+        image: hamburguesa3,
+        alt: "Hamburguesa Especial",
+        title: "Hamburguesa Especial",
+        description: "Hamburguesa especial con tocineta, queso y carne angús",
+        price: "$25.000"
+      },
+      hamburguesa4Content: {
+        image: hamburguesa4,
+        alt: "Pasteles de Pollo",
+        title: "Pasteles de Pollo",
+        description: "Dos pasteles de pollo",
+        price: "$10.000"
+      }
+  
   };
   
   export default imagenes;
