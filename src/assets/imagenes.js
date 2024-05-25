@@ -14,20 +14,52 @@ import cocaCola from './img/images.jpg';
 import manzana from './img/manzana-400ml-postobon.jpg';
 import colombiana from './img/colombiana-400ml-postobon.jpg';
 
-export default {
-    "hamburguesa": hamburguesa,
-    "hamburguesa2": hamburguesa2,
-    "hamburguesa3": hamburguesa3,
-    "hamburguesa4": hamburguesa4,
-    "entrada1": entrada1,
-    "entrada2": entrada2,
-    "entrada3": entrada3,
-    "entrada4": entrada4,
-    "entrada5": entrada5,
-    "carne1": carne1,
-    "carne2": carne2,
-    "carne3": carne3,
-    "cocaCola":cocaCola,
-    "colombiana": colombiana,
-    "manzana": manzana,
-}
+const imagenes = {
+    entrada1: entrada1,
+    entrada2: entrada2,
+    entrada3: entrada3,
+    entrada4: entrada4,
+    hamburguesa: hamburguesa,
+    hamburguesa2: hamburguesa2,
+    hamburguesa3: hamburguesa3,
+    hamburguesa4: hamburguesa4,
+    entrada5: entrada5,
+    carne1: carne1,
+    carne2: carne2,
+    carne3: carne3,
+    cocaCola: cocaCola,
+    manzana: manzana,
+    colombiana, colombiana,
+    
+    entrada1Content: {
+      image: entrada1,
+      alt: "Pollo Asado",
+      title: "Pollo Asado",
+      description: "Pollo asado con papas a la francesa y ensalada",
+      price: "$25.000"
+    },
+    entrada2Content: {
+      image: entrada2,
+      alt: "Papas a la Francesa",
+      title: "Papas a la Francesa",
+      description: "Porcion grande de papas a la francesa",
+      price: "$10.000"
+    },
+    entrada3Content: {
+      image: entrada3,
+      alt: "Hamburguesa Especial",
+      title: "Hamburguesa Especial",
+      description: "Hamburguesa especial con tocineta, queso y carne angús",
+      price: "$25.000"
+    },
+    entrada4Content: {
+      image: entrada4,
+      alt: "Pasteles de Pollo",
+      title: "Pasteles de Pollo",
+      description: "Dos pasteles de pollo",
+      price: "$10.000"
+    }
+  };
+  
+  export default imagenes;
+  
