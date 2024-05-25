@@ -6,7 +6,7 @@ const Comidas = forwardRef((props,ref) => {
     <div className='container' ref={ref}>
     <h2>Comidas</h2>
       <div className='image-pair'>
-            <img className='img' src={imagenes.entrada1} alt='Entrada' />
+            <img className='img' src={imagenes.pollo} alt='Entrada' />
             <h2 className='text'>
                 Pollo asado
                 <h6>Pollo asado con papas a la francesa y ensalada, compralo hoy por tan solo: </h6>
@@ -26,7 +26,7 @@ const Comidas = forwardRef((props,ref) => {
         <img className='img' src={imagenes.hamburguesa3} alt='Entrada 3' />
         <h2 className='text'>
           Hamburguesa especial
-          <h6>hamburguesa especial con tocineta, queso y carne angús, compralo hoy por tan solo: </h6>
+          <h6>Hamburguesa especial con tocineta, queso y carne angús, compralo hoy por tan solo: </h6>
           <h4>$25.000</h4> </h2>
       </div>
 

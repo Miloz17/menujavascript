@@ -13,6 +13,7 @@ import carne3 from './img/Pechuga-Donde-Rafa.jpg';
 import cocaCola from './img/images.jpg';
 import manzana from './img/manzana-400ml-postobon.jpg';
 import colombiana from './img/colombiana-400ml-postobon.jpg';
+import pollo from './img/pollo2.jpg';
 
 export default {
     "hamburguesa": hamburguesa,
@@ -30,4 +31,5 @@ export default {
     "cocaCola":cocaCola,
     "colombiana": colombiana,
     "manzana": manzana,
+    "pollo": pollo,
 }

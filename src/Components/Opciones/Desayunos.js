@@ -5,7 +5,7 @@ return (
     <div className="container" ref={ref}>
     <h2>Desayunos</h2>
       <div className='image-pair'>
-        <img className='img' src={imagenes.hamburguesa2} alt='Entrada 4' />
+        <img className='img' src={imagenes.pollo} alt='Entrada 4' />
         <h2 className='text'>
           Pollo asado
           <h6>Pollo asado con papas a la francesa y ensalada, compralo hoy por tan solo: </h6>

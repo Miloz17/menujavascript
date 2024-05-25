@@ -7,7 +7,7 @@ const Entradas = forwardRef((props, ref) => {
       <div className="container" ref={ref}>
       <h2>Entradas</h2>
         <div className='image-pair'>
-          <img className='img' src={imagenes.entrada1} alt='entradas' />
+          <img className='img' src={imagenes.pollo} alt='entradas' />
           <h2 className='text'>
             Pollo asado
             <h6>Pollo asado con papas a la francesa y ensalada, compralo hoy por tan solo: </h6>
