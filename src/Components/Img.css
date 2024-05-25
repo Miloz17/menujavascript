@@ -4,6 +4,8 @@
     display: flex;
     overflow-x: hidden;
     flex-wrap: wrap;
+    position: relative; 
+    display: inline-block;
   }
   
   .img {
@@ -11,6 +13,9 @@
     height: auto; 
     margin-top: 30px;
     margin-right: 10px;
+  }
+  .image-container {
+    position: relative;
   }
   
   .image-pair {
@@ -24,4 +29,72 @@
     height: 50%;
     width: 50%;
     margin-top: 130px;
+}
+
+.boton {
+  position: absolute; 
+  top: 52%; 
+  left: 25%; 
+  transform: translate(-50%, -50%); 
+  padding: 10px 20px;
+  background-color: white;
+  color: gray;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal {
+  display:inline;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.container2 {
+  display:inline-table;
+  justify-content: center; 
+  align-items: center; 
+  padding: 50px;
+  height: 60vh; 
+  width: 60%;
+  overflow: hidden;
+  background-color: whitesmoke;
+  
+}
+
+.image-con{
+  object-fit: cover;
+  position: relative;
+}
+.image-p{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px; 
+}
+
+.img2 {
+  width: 100%; 
+  height: auto; 
+  margin-top: 30px;
+  margin-right: 10px;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  color: red;
+  cursor: pointer;
+  transition: transform 0.2s, color 0.2s;
+}
+
+.close-button:hover {
+  transform: scale(1.2);
+  color: darkred;
 }
