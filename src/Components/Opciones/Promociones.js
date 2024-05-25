@@ -12,8 +12,8 @@ const Todos = () => {
 return (
     <div>
       <Navbar desplazar={desplazar} />
-      <div style={{ marginTop: "1000px" }} ref={sectionRef}>
-        <h2>Sección de Todos</h2>
+      <div ref={sectionRef}>
+        <h2>Sección de Promociones</h2>
         <p>Esta es la sección a la que se desplazará.</p>
       </div>
     </div>
@@ -22,4 +22,4 @@ return (
 
 }
 
-export default Todos
+export default Promociones

@@ -30,7 +30,7 @@ const Entradas = forwardRef((props, ref) => {
 
       <div className="image-container">
         <div className="image-pair">
-          <img className="img" src={imagenes.entrada1} alt="entradas" />
+          <img className="img" src={imagenes.pollo} alt="entradas" />
           <button className="boton" onClick={() => openModal('modal1')}>Vista Previa</button>
           <Modal isOpen={isModalOpen.modal1} closeModal={() => closeModal('modal1')} content={imagenes.entrada1Content} />
           <h2 className="text">
@@ -43,7 +43,7 @@ const Entradas = forwardRef((props, ref) => {
 
       <div className="image-container">
         <div className="image-pair">
-          <img className="img" src={imagenes.entrada2} alt="Entrada 2" />
+          <img className="img" src={imagenes.entrada3} alt="Entrada 2" />
           <button className="boton" onClick={() => openModal('modal2')}>Vista Previa</button>
           <Modal isOpen={isModalOpen.modal2} closeModal={() => closeModal('modal2')} content={imagenes.entrada2Content} />
           <h2 className="text">
@@ -56,7 +56,7 @@ const Entradas = forwardRef((props, ref) => {
 
       <div className="image-container">
         <div className="image-pair">
-          <img className="img" src={imagenes.entrada3} alt="Entrada 3" />
+          <img className="img" src={imagenes.hamburguesa3} alt="Entrada 3" />
           <button className="boton" onClick={() => openModal('modal3')}>Vista Previa</button>
           <Modal isOpen={isModalOpen.modal3} closeModal={() => closeModal('modal3')} content={imagenes.entrada3Content} />
           <h2 className="text">

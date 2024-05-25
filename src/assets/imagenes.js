@@ -13,6 +13,9 @@ import carne3 from './img/Pechuga-Donde-Rafa.jpg';
 import cocaCola from './img/images.jpg';
 import manzana from './img/manzana-400ml-postobon.jpg';
 import colombiana from './img/colombiana-400ml-postobon.jpg';
+import pollo from './img/pollo2.jpg';
+import logo from './img/logo.jpg' ;
+ 
 
 const imagenes = {
     entrada1: entrada1,
@@ -29,24 +32,26 @@ const imagenes = {
     carne3: carne3,
     cocaCola: cocaCola,
     manzana: manzana,
-    colombiana, colombiana,
+    colombiana: colombiana,
+    pollo: pollo,
+    logo: logo,
     
     entrada1Content: {
-      image: entrada1,
+      image: pollo,
       alt: "Pollo Asado",
       title: "Pollo Asado",
       description: "Pollo asado con papas a la francesa y ensalada",
       price: "$25.000"
     },
     entrada2Content: {
-      image: entrada2,
+      image: entrada3,
       alt: "Papas a la Francesa",
       title: "Papas a la Francesa",
       description: "Porcion grande de papas a la francesa",
       price: "$10.000"
     },
     entrada3Content: {
-      image: entrada3,
+      image: hamburguesa3,
       alt: "Hamburguesa Especial",
       title: "Hamburguesa Especial",
       description: "Hamburguesa especial con tocineta, queso y carne angús",
@@ -68,7 +73,7 @@ const imagenes = {
         price: "$25.000"
     },
     hamburguesa2Content: {
-        image: hamburguesa2,
+        image: entrada3,
         alt: "Papas a la Francesa",
         title: "Papas a la Francesa",
         description: "Porcion grande de papas a la francesa",
@@ -82,12 +87,54 @@ const imagenes = {
         price: "$25.000"
       },
       hamburguesa4Content: {
-        image: hamburguesa4,
+        image: entrada4,
         alt: "Pasteles de Pollo",
         title: "Pasteles de Pollo",
         description: "Dos pasteles de pollo",
-        price: "$10.000"
-      }
+        price: "$10.000" 
+      },
+      carne1Content: {
+        image: carne1, 
+        alt: "Carne de res",
+        title: "Carne de res",
+        description: "Carne de res con papas a la francesa y ensalada:",
+        price: "$30.000" 
+      }, 
+      carne2Content: {
+        image: carne2, 
+        alt: "Trucha",
+        title: "Trucha",
+        description: "Trucha con papas a la francesa y ensalada:",
+        price: "$35.000" 
+      },
+      carne3Content: {
+        image: carne3, 
+        alt: "Pechuga",
+        title: "Pechuga",   
+        description: "Pechuga de pollo con papas a la francesa y ensalada:",
+        price: "$27.000"
+      },
+      cocaColaContent: {
+        image: cocaCola, 
+        alt: "Coca Cola",
+        title: "Coca Cola",   
+        description: "Coca Cola personal:",
+        price: "$5.000"
+      }, 
+      manzanaContent: {
+        image: manzana, 
+        alt: "Manzana",
+        title: "Manzana",   
+        description: "Gaseosas postobon, Manzana: ",
+        price: "$3.000"
+      }, 
+      colombianaContent: {
+        image: colombiana, 
+        alt: "Colombiana",
+        title: "Colombiana",   
+        description: "Gaseosas postobon, Colombiana:",
+        price: "$3.000"
+      },
   
   };
   

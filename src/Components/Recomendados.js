@@ -7,7 +7,7 @@ export const Recomendados = () => {
     <div className='container'>
       <h2>Promociones</h2>
       <div className='image-pair'>
-        <img className='img' src={imagenes.carne1} alt='Carne 1' />
+        <img className='img' src={imagenes.pollo} alt='Carne 1' />
         <h2 className='text'>
           Pollo asado
           <h6>Pollo asado con papas a la francesa y ensalada, compralo hoy por tan solo: </h6>

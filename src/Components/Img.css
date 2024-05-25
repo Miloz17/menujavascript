@@ -7,7 +7,8 @@
     position: relative; 
     display: inline-block;
   }
-  
+
+
   .img {
     width: 50%; 
     height: auto; 
@@ -71,7 +72,7 @@
   position: relative;
 }
 .image-p{
-  width: 100%;
+  width: 80%;
   display: flex;
   justify-content: space-between;
   margin-bottom: 50px; 
@@ -97,4 +98,10 @@
 .close-button:hover {
   transform: scale(1.2);
   color: darkred;
+}
+
+.imgLogo{ 
+
+  width: 200px;
+  height: 100px; 
 }
