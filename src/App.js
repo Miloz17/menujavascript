@@ -7,13 +7,14 @@ import Desayunos from "./Components/Opciones/Desayunos";
 import Comidas from "./Components/Opciones/Comidas";
 import Almuerzos from "./Components/Opciones/Almuerzos";
 import Bebidas from "./Components/Opciones/Bebidas";
-
+import Promociones from "./Components/Opciones/Promociones";
 function App() {
   const entradasRef = useRef(null);
   const almuerzosRef = useRef(null);
   const comidasRef = useRef(null);
   const desayunosRef = useRef(null);
   const bebidasRef = useRef(null);
+  const PromocionesRef = useRef(null);
 
   const desplazar = (section) => {
     if (section === "Entradas" && entradasRef.current) {
@@ -34,12 +35,15 @@ function App() {
     if (section === "Almuerzos" && almuerzosRef.current) {
       almuerzosRef.current.scrollIntoView({ behavior: "smooth" }); 
     }
+    if (section === "Promociones" && PromocionesRef.current) {
+      PromocionesRef.current.scrollIntoView({ behavior: "smooth" }); 
+    }
     
   };
   return (
     <div className="App">
       <Navbar desplazar = {desplazar}/>
-      <Recomendados />
+      <Promociones ref={PromocionesRef} />
       <Entradas ref={entradasRef}/>
       <Desayunos ref={desayunosRef}/>
       <Almuerzos ref={almuerzosRef}/>

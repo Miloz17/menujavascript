@@ -93,41 +93,41 @@ const imagenes = {
         description: "Dos pasteles de pollo",
         price: "$10.000" 
       },
-      carne1Content: {
-        image: carne1, 
-        alt: "Carne de res",
-        title: "Carne de res",
-        description: "Carne de res con papas a la francesa y ensalada:",
-        price: "$30.000" 
-      }, 
-      carne2Content: {
-        image: carne2, 
-        alt: "Trucha",
-        title: "Trucha",
-        description: "Trucha con papas a la francesa y ensalada:",
-        price: "$35.000" 
-      },
-      carne3Content: {
-        image: carne3, 
-        alt: "Pechuga",
-        title: "Pechuga",   
-        description: "Pechuga de pollo con papas a la francesa y ensalada:",
-        price: "$27.000"
-      },
-      cocaColaContent: {
-        image: cocaCola, 
-        alt: "Coca Cola",
-        title: "Coca Cola",   
-        description: "Coca Cola personal:",
-        price: "$5.000"
-      }, 
-      manzanaContent: {
-        image: manzana, 
-        alt: "Manzana",
-        title: "Manzana",   
-        description: "Gaseosas postobon, Manzana: ",
-        price: "$3.000"
-      }, 
+    carne1Content: {
+    image: carne1, 
+    alt: "Carne de res",
+    title: "Carne de res",
+    description: "Carne de res con papas a la francesa y ensalada:",
+    price: "$30.000" 
+    }, 
+    carne2Content: {
+    image: carne2, 
+    alt: "Trucha",
+    title: "Trucha",
+    description: "Trucha con papas a la francesa y ensalada:",
+    price: "$35.000" 
+    },
+    carne3Content: {
+    image: carne3, 
+    alt: "Pechuga",
+    title: "Pechuga",   
+    description: "Pechuga de pollo con papas a la francesa y ensalada:",
+    price: "$27.000"
+    },
+    cocaColaContent: {
+    image: cocaCola, 
+    alt: "Coca Cola",
+    title: "Coca Cola",   
+    description: "Coca Cola personal:",
+    price: "$5.000"
+    }, 
+    manzanaContent: {
+    image: manzana, 
+    alt: "Manzana",
+    title: "Manzana",   
+    description: "Gaseosas postobon, Manzana: ",
+    price: "$3.000"
+    }, 
       colombianaContent: {
         image: colombiana, 
         alt: "Colombiana",

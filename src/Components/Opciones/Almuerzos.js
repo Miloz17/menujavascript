@@ -44,7 +44,7 @@ const Almuerzos = forwardRef((props, ref) => {
       <div className="image-container">
         <div className='image-pair'>
           <img className='img' src={imagenes.carne2} alt='trucha' />
-          <button className="boton" onClick={() => openModal('modal1')}>Vista Previa</button>
+          <button className="boton" onClick={() => openModal('modal2')}>Vista Previa</button>
           <Modal isOpen={isModalOpen.modal2} closeModal={() => closeModal('modal2')} content={imagenes.carne2Content} />
           <h2 className='text'>
             Trucha
@@ -56,7 +56,7 @@ const Almuerzos = forwardRef((props, ref) => {
       <div className="image-container">
         <div className='image-pair'>
           <img className='img' src={imagenes.carne3} alt='Pechuga' />
-          <button className="boton" onClick={() => openModal('modal1')}>Vista Previa</button>
+          <button className="boton" onClick={() => openModal('modal3')}>Vista Previa</button>
           <Modal isOpen={isModalOpen.modal3} closeModal={() => closeModal('modal3')} content={imagenes.carne3Content} />
           <h2 className='text'>
             Pechuga
