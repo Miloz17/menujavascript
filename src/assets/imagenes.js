@@ -114,21 +114,21 @@ const imagenes = {
         description: "Pechuga de pollo con papas a la francesa y ensalada:",
         price: "$27.000"
       },
-      cocaColaContent: {
+      bebidas1Content: {
         image: cocaCola, 
         alt: "Coca Cola",
         title: "Coca Cola",   
         description: "Coca Cola personal:",
         price: "$5.000"
       }, 
-      manzanaContent: {
+      bebidas2Content: {
         image: manzana, 
         alt: "Manzana",
         title: "Manzana",   
         description: "Gaseosas postobon, Manzana: ",
         price: "$3.000"
-      }, 
-      colombianaContent: {
+      },
+      bebidas3Content: {
         image: colombiana, 
         alt: "Colombiana",
         title: "Colombiana",   

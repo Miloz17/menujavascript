@@ -31,7 +31,7 @@ return (
       <div className='image-pair'>
         <img className='img' src={imagenes.cocaCola} alt='Coca Cola' />
         <button className="boton" onClick={() => openModal('modal1')}>Vista Previa</button>
-          <Modal isOpen={isModalOpen.modal1} closeModal={() => closeModal('modal1')} content={imagenes.cocaColaContent} />
+          <Modal isOpen={isModalOpen.modal1} closeModal={() => closeModal('modal1')} content={imagenes.bebidas1Content} />
         <h2 className='text'>
           Coca Cola 
           <h6>Coca Cola personal: </h6>
@@ -42,11 +42,11 @@ return (
     <div className="image-container">
       <div className='image-pair'>
         <img className='img' src={imagenes.colombiana} alt='Colombiana' />
-        <button className="boton" onClick={() => openModal('modal1')}>Vista Previa</button>
-          <Modal isOpen={isModalOpen.modal1} closeModal={() => closeModal('modal1')} content={imagenes.colombianaContent} />
+        <button className="boton" onClick={() => openModal('modal2')}>Vista Previa</button>
+          <Modal isOpen={isModalOpen.modal2} closeModal={() => closeModal('modal2')} content={imagenes.bebidas3Content} />
         <h2 className='text'>
           Colombiana
-          <h6>gaseosas postobon, Colombiana: </h6>
+          <h6>Gaseosas postobon, Colombiana: </h6>
           <h4>$3.000</h4> </h2>
       </div>
     </div>
@@ -54,8 +54,8 @@ return (
     <div className="image-container">
       <div className='image-pair'>
         <img className='img' src={imagenes.manzana} alt='Manzana' />
-        <button className="boton" onClick={() => openModal('modal1')}>Vista Previa</button>
-          <Modal isOpen={isModalOpen.modal1} closeModal={() => closeModal('modal1')} content={imagenes.manzanaContent} />
+        <button className="boton" onClick={() => openModal ("modal3")} >Vista Previa</button> 
+        <Modal isOpen={isModalOpen.modal3} closeModal={() => closeModal("modal3")} content={imagenes.bebidas2Content} />
         <h2 className='text'>
           Manzana
           <h6>Gaseosas Postobon, Manzana: </h6>
