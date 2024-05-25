@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react" 
 
 
 const Navbar =({desplazar}) => {
@@ -11,7 +11,7 @@ const Navbar =({desplazar}) => {
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav mx-auto">
-            <button className="btn" onClick={() => desplazar('todos')}> Todos <span class="sr-only">(current)</span> </button>
+            <button className="btn" onClick={() => desplazar('Promociones')}> Promociones <span class="sr-only">(current)</span> </button>
             <button className="btn" onClick={() => desplazar('Entradas')}>Entradas </button>
             <button className="btn" onClick={()=> desplazar('Desayunos')}>Desayunos</button>
             <button className="btn" onClick={()=> desplazar('Almuerzos')}>Almuerzos</button>

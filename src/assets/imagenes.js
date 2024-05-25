@@ -18,7 +18,7 @@ export default {
     "hamburguesa": hamburguesa,
     "hamburguesa2": hamburguesa2,
     "hamburguesa3": hamburguesa3,
-    "hamburguesa4": hamburguesa4,
+    "hamburguesa4": hamburguesa4,   
     "entrada1": entrada1,
     "entrada2": entrada2,
     "entrada3": entrada3,
