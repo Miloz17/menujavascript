@@ -58,8 +58,8 @@ return (
           <Modal isOpen={isModalOpen.modal3} closeModal={() => closeModal('modal3')} content={imagenes.manzanaContent} />
         <h2 className='text'>
           Manzana
-          <h6>Gaseosas Postobon, Manzana: </h6>
-          <h4>$3.000</h4> </h2>
+          <h6>gaseosas postobon, Manzana: </h6>
+          <h4>$3.500</h4> </h2>
       </div>
     </div>
 
